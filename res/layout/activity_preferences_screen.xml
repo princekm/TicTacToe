@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferencesScreen" 
+    android:background="@color/black">
+	<RelativeLayout 
+    style="@style/fill_parent"
+    android:id="@+id/pad"
+    android:background="@drawable/static_background">
+    	<TextView
+        style="@style/title_style"
+        android:id="@+id/title"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_preferences" />
+    		<ScrollView 
+            android:layout_below="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+				<LinearLayout 
+    			android:orientation="vertical"
+    			style="@style/wrap_content"
+  				android:layout_width="fill_parent"
+  				android:id="@+id/options_pad"
+   				android:padding="5dp"
+    			>
+    				<RadioGroup
+        			android:id="@+id/who_vs_whom"
+        			android:checkedButton="@+id/player_vs_player" 
+  					style="@style/custom_radio_group"
+        			>
+       					 <RadioButton  
+          				 android:onClick="showInputs"
+          				 android:id="@+id/player_vs_player"            
+          				 android:text="          Player vs Player"
+      					 style="@style/custom_radio_button"/>
+            			 <RadioButton
+           				 android:onClick="showInputs"
+            			 android:id="@+id/player_vs_machine"
+            			 style="@style/custom_radio_button"
+           				 android:text="          Player vs Machine"
+           				 />            
+          			</RadioGroup>
+            	<LinearLayout 
+                android:id="@+id/inputs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/static_background"
+    			android:padding="5dp"     
+    			android:layout_margin="5dp"
+                >
+                	<LinearLayout 
+                	android:background="@drawable/static_background"
+                	    android:layout_width="fill_parent"
+                	    android:layout_height="wrap_content">
+            	    	<EditText   
+               			android:onClick="tryMakingSound"                 
+               			style="@style/input_style"                    	
+            	    	android:layout_weight="84.8" 
+                    	android:id="@+id/input1"
+               			android:hint="Player1 name"
+                   		/>
+            	    	<View 
+                 		android:layout_margin="5dp"    
+            	    	android:layout_width="0dp"                	    
+            	    	android:layout_weight="15.2"
+                	    android:layout_height="fill_parent"
+                	    android:background="@drawable/custom_ball1"/>
+            	    </LinearLayout>	
+            	    <LinearLayout 
+            	        android:background="@drawable/static_background"
+                	    android:layout_width="fill_parent"
+                	    android:layout_height="wrap_content">
+                 		<EditText     
+                    	style="@style/input_style"
+                    	android:onClick="tryMakingSound"                 
+                 		android:layout_weight="84.8"
+                   	 	android:id="@+id/input2"
+               			android:hint="Player2 name"
+                   		/>
+                 		<View     
+                 		android:layout_margin="5dp"    
+            	    	android:layout_width="0dp"            	    	
+                 		android:layout_weight="15.2"
+                	    android:layout_height="fill_parent"
+                	    android:background="@drawable/custom_ball"/>
+                 	</LinearLayout>	
+          	  	</LinearLayout>
+          	  	   	<RadioGroup 
+  				android:id="@+id/level"
+       			android:checkedButton="@+id/sound_on"               
+   				style="@style/custom_radio_group"
+   				android:visibility="gone"
+       			>
+        			<RadioButton
+        		    android:onClick="tryMakingSound"
+            		android:id="@+id/easy"
+            		style="@style/custom_radio_button"
+            		android:text="          Easy "
+               		/>
+           			<RadioButton
+               		android:onClick="tryMakingSound"
+            		android:id="@+id/hard"      
+            		style="@style/custom_radio_button"
+            		android:text="          Hard "
+              		/>            
+            	</RadioGroup>
+            
+               	<RadioGroup 
+  				android:id="@+id/sound_on_off"
+       			android:checkedButton="@+id/sound_on"               
+   				style="@style/custom_radio_group"
+       			>
+        			<RadioButton
+        		    android:onClick="tryMakingSound"
+            		android:id="@+id/sound_on"
+            		style="@style/custom_radio_button"
+            		android:text="          Turn sounds on"
+               		/>
+           			<RadioButton
+               		android:onClick="tryMakingSound"
+            		android:id="@+id/sound_off"      
+            		style="@style/custom_radio_button"
+            		android:text="          Turn sounds off"
+              		/>            
+            	</RadioGroup>
+               	<RadioGroup 
+                android:id="@+id/vibrate_on_off"
+                android:checkedButton="@+id/vibrate_on"
+   				style="@style/custom_radio_group"
+       			>
+               		<RadioButton
+                   	android:onClick="tryMakingSound"
+                   	android:id="@+id/vibrate_on" 
+            		style="@style/custom_radio_button"
+            		android:text="          Turn vibrations on"
+           			/>
+            		<RadioButton
+                	android:onClick="tryMakingSound" 
+                	android:id="@+id/vibrate_off"
+            		style="@style/custom_radio_button"
+            		android:text="          Turn vibrations off"
+            		/>            
+            	</RadioGroup>
+            	<Button 
+                style="@style/button_style"                
+                android:text="Save preferences"
+                android:onClick="savePreferences"
+              	/>
+			</LinearLayout>
+		</ScrollView>
+	</RelativeLayout>
+</RelativeLayout>
