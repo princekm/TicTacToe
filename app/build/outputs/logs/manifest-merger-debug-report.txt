@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:7:9-34
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:9:2-10:49
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:10:6-47
+application
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:11:5-59:19
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:13:9-45
+	android:description
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:16:9-50
+	android:theme
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:15:9-47
+activity#com.game.application.tictactoe.SplashScreen
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:17:9-27:20
+	android:screenOrientation
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:19:13-45
+	android:configChanges
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:21:13-63
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:18:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.game.application.tictactoe.HomeScreen
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:28:9-33:20
+	android:screenOrientation
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:31:13-49
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:30:13-63
+	android:configChanges
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:29:13-69
+activity#com.game.application.tictactoe.MainScreen
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:34:9-39:20
+	android:screenOrientation
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:37:13-49
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:36:13-63
+	android:configChanges
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:38:13-63
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:35:13-69
+activity#com.game.application.tictactoe.AboutScreen
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:40:9-45:20
+	android:screenOrientation
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:42:13-64
+	android:configChanges
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:44:13-63
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:41:13-70
+activity#com.game.application.tictactoe.PreferencesScreen
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:46:9-52:20
+	android:screenOrientation
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:48:13-70
+	android:windowSoftInputMode
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:49:13-54
+	android:configChanges
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:47:13-76
+activity#com.game.application.tictactoe.HighScoresScreen
+ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:53:9-58:20
+	android:screenOrientation
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:55:13-70
+	android:configChanges
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:57:13-63
+	android:name
+		ADDED from /home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/AndroidManifest.xml:54:13-75

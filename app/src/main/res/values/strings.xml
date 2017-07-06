@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicTacToe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_about_screen">AboutScreen</string>
+    <string name="title_activity_preferences_screen">PreferencesScreen</string>
+    <!-- activity names -->
+    <string name="splashscreen_activity"></string>
+    <string name="app_title">"   TICTACTOE"</string>
+    <string name="game_menu">Game Menu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_high_scores">HighScores</string>
+    <string name="title_activity_about">About</string>
+    <!-- application strngs -->
+    <string name="description">"TicTacToe  is a simple game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game."</string>
+    <string name="about_app">"TicTacToe  is a simple game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.Enjoy the game."</string>
+    <string name="developer">"*prinz*\n\n for any queries please contact\n prince.k.m.005@gmail.com."</string>
+    <string name="share_us">Share this app on</string>
+    <string name="title_activity_high_scores_screen">HighScoresScreen</string>
+	<string name="high_scores">HighScores</string>
+	<string name="points">Points</string>
+	<string name="player_name">Player</string>
+	<string name="one">1</string>
+	<string name="two">2</string>
+	<string name="three">3</string>
+	<string name="four">4</string>
+	<string name="five">5</string>
+	<string name="clear_scores">Clear highscores</string>
+	<string name="empty">""</string>
+</resources>

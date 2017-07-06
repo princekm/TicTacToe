@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/raw/click.mp3",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/raw/click.mp3"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/raw/tie.mp3",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/raw/tie.mp3"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/raw/player1.mp3",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/raw/player1.mp3"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/raw/success.mp3",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/raw/success.mp3"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/raw/player2.mp3",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/raw/player2.mp3"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/raw/wrong.mp3",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/raw/wrong.mp3"
+    }
+]

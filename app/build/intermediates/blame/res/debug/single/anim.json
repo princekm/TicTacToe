@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/anim/bounce.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/anim/bounce.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/anim/blink.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/anim/blink.xml"
+    }
+]

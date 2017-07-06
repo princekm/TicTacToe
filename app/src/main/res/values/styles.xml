@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <style name="AppTheme" parent="android:Theme.Light">	
+		<item name="android:windowTitleStyle">@style/title_bar</item>
+		<item name="android:windowTitleSize">@dimen/title_size</item>
+		<item name="android:windowTitleBackgroundStyle">@style/title_background</item>
+    </style>
+
+
+    <!--   Application fullscreen theme. -->
+<style name="fullscreenTheme" parent="android:Theme.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+</style>
+	<!-- Application text theme. -->
+<style name="text_style">
+    <item name="android:background">@color/transparent</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">16dp</item>
+    <item name="android:layout_width">wrap_content</item>            
+    <item name="android:layout_height">wrap_content</item>               
+</style>
+
+    <!-- Application button theme. -->
+<style name="button_style">
+    <item name="android:background">@drawable/custom_button</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_margin">2dp</item>
+    <item name="android:layout_height">@dimen/button_height</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">16dp</item>    
+</style>
+
+
+<!-- Application title_bar theme. -->
+<style name="title_bar">
+		<item name="android:singleLine">false</item>		
+		<item name="android:shadowColor">@color/grey</item>
+		<item name="android:textSize">@dimen/titlebar_text_size</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="title_background">
+		<item name="android:background">@color/orange</item>
+	</style>
+
+	
+<!-- match parent in both ways -->	
+<style name="match_parent" 
+    >
+    	<item name="android:layout_width">match_parent</item>
+    		
+    	<item name="android:layout_height">match_parent</item>
+</style>	
+
+
+<!-- fills parent in both ways -->
+<style name="fill_parent" 
+    >
+    	<item name="android:layout_width">fill_parent</item>
+    		
+    	<item name="android:layout_height">fill_parent</item>
+</style>	
+
+
+<!-- fills parent in both ways -->
+<style name="wrap_content" 
+    >
+    	<item name="android:layout_width">wrap_content</item>
+    		
+    	<item name="android:layout_height">wrap_content</item>
+</style>	
+<!-- container box style -->
+<style name="container_box_style">
+    <item name="android:onClick">setChild</item>
+    <item name="android:padding">20dp</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_weight">33.33</item>
+    <item name="android:background">@drawable/static_background</item>
+    <item name="android:layout_margin">1dp</item>
+</style>
+<!-- custom ball style -->
+<style name="custom_ball_style">
+<item name="android:layout_width">fill_parent</item>
+<item name="android:layout_height">fill_parent</item>
+<item name="android:background">@drawable/custom_ball</item>
+<item name="android:visibility">gone</item>
+</style>
+<!-- title style -->
+<style name="title_style">
+<item name="android:layout_width">wrap_content</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:textColor">@color/white</item>
+<item name="android:textSize">@dimen/title_size</item>
+</style>
+<!-- input style -->
+<style name="input_style">
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">@dimen/button_height</item>
+<item name="android:textColor">@color/black</item>
+<item name="android:textSize">@dimen/text_size_normal</item>
+<item name="android:background">@drawable/custom_input</item>
+<item name="android:paddingLeft">10dp</item>
+<item name="android:layout_margin">1dp</item>
+<item name="android:singleLine">true</item>
+<item name="android:maxLength">10</item>
+</style>
+<!-- radiogroup style -->
+<style name="custom_radio_group">
+    <item name="android:background">@drawable/static_background</item>
+    <item name="android:layout_margin">5dp</item>
+     <item name="android:padding">5dp</item>   
+     <item name="android:layout_width">fill_parent</item>
+      <item name="android:layout_height">wrap_content</item> 
+</style>
+<!-- radiobutton style -->
+<style name="custom_radio_button">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/button_height</item> 
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:background">@drawable/custom_button</item>
+</style>
+<!-- linearlayout style -->
+<style name="custom_linearlayout">
+    <item name="android:layout_height">0dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_weight">33.33</item>
+</style>
+<!-- icons style -->
+<style name="icon_style">
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:layout_width">32dp</item>
+    <item name="android:layout_height">32dp</item>
+    <item name="android:onClick">gotoLink</item>    
+</style>
+<!-- ball icon style -->
+<style name="ball_icon_style">
+    <item name="android:layout_weight">1.3</item>
+    <item name="android:layout_width">40dp</item>
+    <item name="android:layout_height">40dp</item>
+</style>
+<!-- paragraph style -->
+<style name="paragraph_style">
+	<item name="android:layout_width">fill_parent</item>    
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:padding">5dp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">@color/white</item>
+	<item name="android:textSize">16dp</item>
+	<item name="android:layout_margin">3dp</item>
+	<item name="android:background">@drawable/static_background</item>
+</style>
+<!-- subtitle style -->
+<style name="subtitle_style">
+    <item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>    
+    <item name="android:layout_margin">5dp</item>
+    <item name="android:layout_weight">97.4</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textSize">@dimen/subtitle_text_size</item>
+    <item name="android:textColor">@color/white</item>
+</style>
+<!-- contentwrapper style -->
+<style name="content_wrapper_style">
+    <item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>    
+	<item name="android:background">@drawable/static_background</item>
+	<item name="android:layout_margin">5dp</item>
+	<item name="android:padding">5dp</item>
+	<item name="android:orientation">vertical</item>
+</style>
+<!-- textview style -->
+<style name="custom_textview">
+    <item name="android:layout_height">@dimen/textview_height</item>
+    <item name="android:layout_margin">2dp</item>
+	<item name="android:gravity">center</item>
+	 <item name="android:layout_width">0dp</item>
+	 <item name="android:background">@drawable/static_background</item>
+	 <item name="android:textSize">16dp</item>
+    <item name="android:textColor">@color/white</item>
+</style>
+</resources>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen" 
+    android:background="@color/black"
+    >
+    <RelativeLayout 
+    android:background="@drawable/custom_button"
+    style="@style/fill_parent">
+    	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+			<TextView
+			    android:layout_margin="5dp"
+			android:id="@+id/application_title"     
+    		android:text="@string/app_name"
+  			style="@style/title_style"
+ 			/>			
+    	</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

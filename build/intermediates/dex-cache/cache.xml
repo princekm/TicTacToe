@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5bb6ad6644c89ec1a6515fca76e06595e2a4f036">
+        <dex dex="/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30b3720ba3c0e90d3f95d0a3364ba9ddc0b838be/classes.dex" />
+    </item>
+    <item
+        jar="/opt/android-sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_95a363f7fadad141ffe290eb5375030e031abdb4/classes.dex" />
+    </item>
+    <item
+        jar="/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="21d898c802d6e52004c5dd28fa5528324191d89b">
+        <dex dex="/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a4a9bc7bbe4dee19f1e8a6cad35efd5bcc188a80/classes.dex" />
+    </item>
+
+</items>

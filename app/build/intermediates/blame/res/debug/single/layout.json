@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/layout/activity_about_screen.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/layout/activity_about_screen.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/layout/activity_home_screen.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/layout/activity_home_screen.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/layout/activity_high_scores_screen.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/layout/activity_high_scores_screen.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/layout/activity_preferences_screen.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/layout/activity_preferences_screen.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/layout/activity_main_screen.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/layout/activity_main_screen.xml"
+    }
+]

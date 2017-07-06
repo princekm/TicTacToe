@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.application.tictactoe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/description"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/fullscreenTheme" >
+        <activity
+            android:name="com.game.application.tictactoe.SplashScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.game.application.tictactoe.HomeScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_home_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.game.application.tictactoe.MainScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_main_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.game.application.tictactoe.AboutScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_about_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.game.application.tictactoe.PreferencesScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_preferences_screen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.game.application.tictactoe.HighScoresScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_high_scores_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

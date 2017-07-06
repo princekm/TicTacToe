@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/twitter.png",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable-hdpi/twitter.png"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/google_plus.png",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable-hdpi/google_plus.png"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/facebook.png",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable-hdpi/facebook.png"
+    }
+]

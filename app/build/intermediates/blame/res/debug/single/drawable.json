@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_ball1.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_ball1.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_cell.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_cell.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/win_background.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/win_background.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_linear.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_linear.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_dead_ball.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_dead_ball.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/static_background.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/static_background.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_ball.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_ball.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_button.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_button.xml"
+    },
+    {
+        "merged": "/home/prinz/Workspace/mygitlab/TicTacToe/app/build/intermediates/res/merged/debug/drawable/custom_input.xml",
+        "source": "/home/prinz/Workspace/mygitlab/TicTacToe/app/src/main/res/drawable/custom_input.xml"
+    }
+]

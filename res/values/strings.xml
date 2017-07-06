@@ -13,13 +13,14 @@
     <string name="app_title">"   TICTACTOE"</string>
     <string name="game_menu">Game Menu</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_preferences">Preferences</string>
     <string name="title_activity_high_scores">HighScores</string>
     <string name="title_activity_about">About</string>
     <!-- application strngs -->
     <string name="description">"TicTacToe  is a simple game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game."</string>
     <string name="about_app">"TicTacToe  is a simple game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.Enjoy the game."</string>
-    <string name="developer">"*prinz*\n\n for any queries please contact\n prince.k.m.005@gmail.com. Visit \nmycodingexperiments.blogspot.com ."</string>
+    <string name="developer">"*prinz*\n\n for any queries please contact\n prince.k.m.005@gmail.com."</string>
     <string name="share_us">Share this app on</string>
     <string name="title_activity_high_scores_screen">HighScoresScreen</string>
 	<string name="high_scores">HighScores</string>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">@color/green</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="brown">#3B170B</color>
+    <color name="button_background_color">@color/black</color>
+    <color name="button_text_color">@color/white</color>
+    <color name="color1">#006678</color>
+    <color name="color10">#46A28D</color>
+    <color name="color2">#002952</color>
+    <color name="color3">#287aa9</color>
+    <color name="color4">#99cc00</color>
+    <color name="color5">#006666</color>
+    <color name="color6">#07B3D3</color>
+    <color name="color7">#333300</color>
+    <color name="color8">#CC9900</color>
+    <color name="color9">#dcdcdc</color>
+    <color name="darkgreen">#006837</color>
+    <color name="darkgrey">#585858</color>
+    <color name="facebook_color">#3b5998</color>
+    <color name="green">#00ff00</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="indigo">#0B13F7</color>
+    <color name="lightgreen">#00FF40</color>
+    <color name="line_color">@color/red</color>
+    <color name="magenta">#FA58F4</color>
+    <color name="orange">#FE642E</color>
+    <color name="red">#ff0000</color>
+    <color name="rose">#FE2E9A</color>
+    <color name="text_background_color">@color/black</color>
+    <color name="text_color">@color/white</color>
+    <color name="transparent">#00000000</color>
+    <color name="violet">#AD0BF7</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#F4FA58</color>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="cell_height">30dp</dimen>
+    <dimen name="cell_width">90dp</dimen>
+    <dimen name="icon_height">50dp</dimen>
+    <dimen name="icon_width">50dp</dimen>
+    <dimen name="subtitle_text_size">22dp</dimen>
+    <dimen name="text_size_big">35dp</dimen>
+    <dimen name="text_size_normal">18dp</dimen>
+    <dimen name="text_size_small">15dp</dimen>
+    <dimen name="textview_height">50dp</dimen>
+    <dimen name="title_size">30dp</dimen>
+    <dimen name="titlebar_text_size">17dp</dimen>
+    <string name="about_app">"TicTacToe  is a simple game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.Enjoy the game."</string>
+    <string name="app_name">TicTacToe</string>
+    <string name="app_title">"   TICTACTOE"</string>
+    <string name="clear_scores">Clear highscores</string>
+    <string name="description">"TicTacToe  is a simple game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game."</string>
+    <string name="developer">"*prinz*\n\n for any queries please contact\n prince.k.m.005@gmail.com."</string>
+    <string name="empty">""</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="game_menu">Game Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="high_scores">HighScores</string>
+    <string name="menu_settings">Settings</string>
+    <string name="one">1</string>
+    <string name="player_name">Player</string>
+    <string name="points">Points</string>
+    <string name="share_us">Share this app on</string>
+    <string name="splashscreen_activity"/>
+    <string name="three">3</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_about_screen">AboutScreen</string>
+    <string name="title_activity_high_scores">HighScores</string>
+    <string name="title_activity_high_scores_screen">HighScoresScreen</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_preferences_screen">PreferencesScreen</string>
+    <string name="two">2</string>
+    <style name="AppTheme" parent="android:Theme.Light">	
+		<item name="android:windowTitleStyle">@style/title_bar</item>
+		<item name="android:windowTitleSize">@dimen/title_size</item>
+		<item name="android:windowTitleBackgroundStyle">@style/title_background</item>
+    </style>
+    <style name="ball_icon_style">
+    <item name="android:layout_weight">1.3</item>
+    <item name="android:layout_width">40dp</item>
+    <item name="android:layout_height">40dp</item>
+</style>
+    <style name="button_style">
+    <item name="android:background">@drawable/custom_button</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_margin">2dp</item>
+    <item name="android:layout_height">@dimen/button_height</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">16dp</item>    
+</style>
+    <style name="container_box_style">
+    <item name="android:onClick">setChild</item>
+    <item name="android:padding">20dp</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_weight">33.33</item>
+    <item name="android:background">@drawable/static_background</item>
+    <item name="android:layout_margin">1dp</item>
+</style>
+    <style name="content_wrapper_style">
+    <item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>    
+	<item name="android:background">@drawable/static_background</item>
+	<item name="android:layout_margin">5dp</item>
+	<item name="android:padding">5dp</item>
+	<item name="android:orientation">vertical</item>
+</style>
+    <style name="custom_ball_style">
+<item name="android:layout_width">fill_parent</item>
+<item name="android:layout_height">fill_parent</item>
+<item name="android:background">@drawable/custom_ball</item>
+<item name="android:visibility">gone</item>
+</style>
+    <style name="custom_linearlayout">
+    <item name="android:layout_height">0dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_weight">33.33</item>
+</style>
+    <style name="custom_radio_button">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/button_height</item> 
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:background">@drawable/custom_button</item>
+</style>
+    <style name="custom_radio_group">
+    <item name="android:background">@drawable/static_background</item>
+    <item name="android:layout_margin">5dp</item>
+     <item name="android:padding">5dp</item>   
+     <item name="android:layout_width">fill_parent</item>
+      <item name="android:layout_height">wrap_content</item> 
+</style>
+    <style name="custom_textview">
+    <item name="android:layout_height">@dimen/textview_height</item>
+    <item name="android:layout_margin">2dp</item>
+	<item name="android:gravity">center</item>
+	 <item name="android:layout_width">0dp</item>
+	 <item name="android:background">@drawable/static_background</item>
+	 <item name="android:textSize">16dp</item>
+    <item name="android:textColor">@color/white</item>
+</style>
+    <style name="fill_parent">
+    	<item name="android:layout_width">fill_parent</item>
+    		
+    	<item name="android:layout_height">fill_parent</item>
+</style>
+    <style name="fullscreenTheme" parent="android:Theme.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+</style>
+    <style name="icon_style">
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:layout_width">32dp</item>
+    <item name="android:layout_height">32dp</item>
+    <item name="android:onClick">gotoLink</item>    
+</style>
+    <style name="input_style">
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">@dimen/button_height</item>
+<item name="android:textColor">@color/black</item>
+<item name="android:textSize">@dimen/text_size_normal</item>
+<item name="android:background">@drawable/custom_input</item>
+<item name="android:paddingLeft">10dp</item>
+<item name="android:layout_margin">1dp</item>
+<item name="android:singleLine">true</item>
+<item name="android:maxLength">10</item>
+</style>
+    <style name="match_parent">
+    	<item name="android:layout_width">match_parent</item>
+    		
+    	<item name="android:layout_height">match_parent</item>
+</style>
+    <style name="paragraph_style">
+	<item name="android:layout_width">fill_parent</item>    
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:padding">5dp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">@color/white</item>
+	<item name="android:textSize">16dp</item>
+	<item name="android:layout_margin">3dp</item>
+	<item name="android:background">@drawable/static_background</item>
+</style>
+    <style name="subtitle_style">
+    <item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>    
+    <item name="android:layout_margin">5dp</item>
+    <item name="android:layout_weight">97.4</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textSize">@dimen/subtitle_text_size</item>
+    <item name="android:textColor">@color/white</item>
+</style>
+    <style name="text_style">
+    <item name="android:background">@color/transparent</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">16dp</item>
+    <item name="android:layout_width">wrap_content</item>            
+    <item name="android:layout_height">wrap_content</item>               
+</style>
+    <style name="title_background">
+		<item name="android:background">@color/orange</item>
+	</style>
+    <style name="title_bar">
+		<item name="android:singleLine">false</item>		
+		<item name="android:shadowColor">@color/grey</item>
+		<item name="android:textSize">@dimen/titlebar_text_size</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+    <style name="title_style">
+<item name="android:layout_width">wrap_content</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:textColor">@color/white</item>
+<item name="android:textSize">@dimen/title_size</item>
+</style>
+    <style name="wrap_content">
+    	<item name="android:layout_width">wrap_content</item>
+    		
+    	<item name="android:layout_height">wrap_content</item>
+</style>
+</resources>

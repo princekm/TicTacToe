@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/pad"
+        style="@style/fill_parent"
+        android:background="@drawable/custom_button" >
+
+        <LinearLayout
+            android:id="@+id/top_pad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/title_style"
+                android:layout_marginLeft="10dp"
+                android:text="TicTacToe" />
+
+            <LinearLayout
+                android:id="@+id/player_switch_pad"
+                style="@style/wrap_content"
+                android:padding="4dp"
+                android:visibility="gone" >
+
+                <View
+                    android:id="@+id/color_of_player"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_ball1" />
+
+                <TextView
+                    android:id="@+id/player_no"
+                    style="@style/wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Player1&apos;s turn"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/game_pad"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/custom_linearlayout" >
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m11"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m12"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m13"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/custom_linearlayout" >
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m21"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m22"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m23"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/custom_linearlayout" >
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m31"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m32"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/container_box_style" >
+
+                    <View
+                        android:id="@+id/m33"
+                        style="@style/custom_ball_style" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/points_pad"
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/game_pad"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp" >
+
+            <LinearLayout
+                style="@style/wrap_content"
+                android:layout_weight="50" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="17"
+                    android:background="@drawable/custom_ball1" />
+
+                <TextView
+                    android:id="@+id/player1_win"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="83"
+                    android:gravity="center"
+                    android:text="0pts"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/wrap_content"
+                android:layout_weight="50" >
+
+                <TextView
+                    android:id="@+id/player2_win"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="83.5"
+                    android:gravity="center"
+                    android:text="0pts"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="16.5"
+                    android:background="@drawable/custom_ball" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            style="@style/button_style"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="26dp"
+            android:onClick="restartGame"
+            android:text="Restart" />
+
+        <RelativeLayout
+            android:id="@+id/dialog_pad"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#77000000"
+            android:onClick="disappear"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/dialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_cell"
+                android:gravity="center"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/dialog_title_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="Sure to Exit?"
+                    android:textColor="@color/white"
+                    android:textSize="22dp" />
+
+                <LinearLayout
+                    android:id="@+id/the_button_pad"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dialog_title_view" >
+
+                    <Button
+                        android:id="@+id/ok"
+                        style="@style/button_style"
+                        android:layout_weight="50"
+                        android:onClick="okTrigger"
+                        android:text="Ok" />
+
+                    <Button
+                        style="@style/button_style"
+                        android:layout_weight="50"
+                        android:onClick="cancelTrigger"
+                        android:text="Cancel" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
